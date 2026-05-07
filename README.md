@@ -3,8 +3,7 @@
 <img src="assets/logo.webp" width="500" alt="Cypher Phish Logo">
 
 # Cypher Phish v3.4.0
-
-### Security Awareness & Phishing Simulation Framework
+### A beginners friendly, Automated phishing tool with 30+ templates.
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/HYDRA-TERMUX/cypher-phish?style=for-the-badge" alt="Stars">
@@ -27,18 +26,14 @@
 ---
 
 ## ⚠️ Important Notice
+> [!CAUTION]
+> All usage of **Cypher-Phish** is entirely at your own responsibility. Any **illegal** actions performed with this toolkit are strictly the fault of the end user. The creators, maintainers, and contributors of Cypher-Phish cannot be held accountable for any misuse, damages, or legal issues caused by improper use of this software.
+> This project includes simulated phishing and social engineering concepts intended only for cybersecurity education, awareness training, and authorized security testing. Users must follow all applicable local, state, and international laws before downloading, accessing, or operating this toolkit.
 
-Cypher Phish is intended **strictly for educational purposes, internal security awareness programs, and authorized penetration testing environments**.
+> Cypher-Phish is created purely for learning and research purposes. It must never be used to steal credentials, bypass authorization, compromise accounts, or perform **malicious activities** against individuals, organizations, or online services.
 
-Unauthorized credential collection, impersonation, or phishing against real users without explicit permission may violate laws and organizational policies.
-
-By using this project, you agree that:
-
-* You own the target systems **or**
-* You have written authorization to perform security testing
-* You will use the project responsibly and ethically
-
----
+> The purpose of this toolkit is to help users understand how phishing techniques function so they can improve security awareness and defensive practices. Any use of this software is done entirely at the user's own risk.
+Unauthorized or unethical usage of this project is strongly discouraged. If you intend to use this toolkit for harmful or illegal activities, you should not use this software.
 
 # 📌 Overview
 
@@ -71,12 +66,10 @@ The framework includes customizable web templates, local hosting support, notifi
 ---
 
 # 🖥️ Supported Platforms
-
+>
 * Linux
-* macOS
-* Windows (WSL)
 * Android (Termux)
-
+<
 ---
 
 # 📋 Requirements
@@ -182,11 +175,11 @@ These templates are designed for:
 Cypher Phish supports optional Telegram notifications for awareness campaign monitoring.
 
 ## Setup Overview
-
-1. Create a Telegram bot using BotFather
-2. Obtain the bot token
-3. Start a conversation with the bot
-4. Add the token during setup
+> [!IMPORTANT]
+> 1. Create a Telegram bot using BotFather
+> 2. Obtain the bot token
+> 3. Start a conversation with the bot
+> 4. Add the token during setup
 
 The framework stores configuration locally for future sessions.
 
