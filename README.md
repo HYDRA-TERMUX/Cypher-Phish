@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" width="180" alt="Cypher Phish Logo">
+<img src="assets/logo.webp" width="180" alt="Cypher Phish Logo">
 
 # Cypher Phish v3.4.0
 
