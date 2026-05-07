@@ -66,10 +66,9 @@ The framework includes customizable web templates, local hosting support, notifi
 ---
 
 # 🖥️ Supported Platforms
->
+
 * Linux
 * Android (Termux)
-<
 ---
 
 # 📋 Requirements
@@ -92,8 +91,9 @@ Most missing dependencies are automatically detected during startup.
 ```bash
 git clone https://github.com/HYDRA-TERMUX/cypher-phish.git
 cd cypher-phish
-chmod +x smfdemo.sh
-./smfdemo.sh
+chmod +x setup.sh
+./setup.sh
+./cypher-phish.sh
 ```
 
 ## Termux (Android)
@@ -104,8 +104,9 @@ pkg install git php curl
 
 git clone https://github.com/HYDRA-TERMUX/cypher-phish.git
 cd cypher-phish
-chmod +x smfdemo.sh
-./smfdemo.sh
+chmod +x setup.sh
+./setup.sh
+./cypher-phish.sh
 ```
 
 ---
@@ -126,9 +127,8 @@ After launching the framework:
 
 ```text
 cypher-phish/
-├── smfdemo.sh
-├── logo.sh
-├── minilogo.sh
+├── setup.sh
+├── cypher-phish
 ├── .sites/
 │   ├── facebook/
 │   ├── instagram/
@@ -197,7 +197,7 @@ Example:
 
 ```bash
 TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN"
-TELEGRAM_CHAT_ID="YOUR_CHAT_ID"
+TELEGRAM_CHAT_ID="YOUR_CHAT_ID" (Automatically adding)
 ```
 
 ---
@@ -242,7 +242,7 @@ sudo pacman -S php
 ## Permission Denied
 
 ```bash
-chmod +x smfdemo.sh
+chmod +x setup.sh
 ```
 
 ---
@@ -293,6 +293,11 @@ This repository is provided for:
 The author is not responsible for misuse or illegal activity.
 
 ---
+
+## 🙏 Special Thanks
+
+- **HTR-TECH** - For [ZPhisher](https://github.com/htr-tech/zphisher)
+
 
 # ⭐ Support
 
