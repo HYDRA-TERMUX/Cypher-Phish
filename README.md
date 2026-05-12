@@ -3,7 +3,6 @@
 <img src="assets/logo.webp" width="500" alt="Cypher Phish Logo">
 
 # Cypher Phish v3.4.0
-### A beginners friendly, Automated phishing tool with 30+ templates.
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/HYDRA-TERMUX/cypher-phish?style=for-the-badge" alt="Stars">
@@ -18,253 +17,30 @@
   <img src="https://img.shields.io/badge/security-awareness-orange?style=for-the-badge" alt="Security">
 </p>
 
+###  Automated phishing tool with 30+ templates
 </div>
 
+<h3 align="center">Disclaimer</h3>
 
-## ⚠️ Important Notice
-> [!CAUTION]
-> All usage of **Cypher-Phish** is entirely at your own responsibility. Any **illegal** actions performed with this toolkit are strictly the fault of the end user. The creators, maintainers, and contributors of Cypher-Phish cannot be held accountable for any misuse, damages, or legal issues caused by improper use of this software.
-> This project includes simulated phishing and social engineering concepts intended only for cybersecurity education, awareness training, and authorized security testing. Users must follow all applicable local, state, and international laws before downloading, accessing, or operating this toolkit.
 
-> Cypher-Phish is created purely for learning and research purposes. It must never be used to steal credentials, bypass authorization, compromise accounts, or perform **malicious activities** against individuals, organizations, or online services.
+<i>
 
-> The purpose of this toolkit is to help users understand how phishing techniques function so they can improve security awareness and defensive practices. Any use of this software is done entirely at the user's own risk.
-Unauthorized or unethical usage of this project is strongly discouraged. If you intend to use this toolkit for harmful or illegal activities, you should not use this software.
+Any actions and/or activities related to **Cypher Phish** are solely your responsibility.  
+The misuse of this toolkit may result in criminal charges against the individuals involved.  
+The developer and contributors will not be held responsible for any misuse or illegal activities performed using this project.
 
-# 📌 Overview
+This toolkit contains materials that may be considered dangerous or harmful if used improperly.  
+Users are responsible for understanding and complying with the laws and regulations of their country before accessing or using this software.
 
-Cypher Phish provides a controlled environment for demonstrating how phishing attacks work during:
+This project is created strictly for educational purposes, security research, and authorized testing environments only.  
+Do not use this toolkit for illegal access, credential theft, privacy violations, or malicious activities.
 
-* Security awareness workshops
-* Red-team exercises
-* Employee cybersecurity training
-* Internal phishing simulations
-* Capture-the-Flag (CTF) learning environments
-* Academic cybersecurity research
+Unauthorized phishing attacks against real targets are illegal and unethical.
 
-The framework includes customizable web templates, local hosting support, notification integration, and simulation utilities that help organizations educate users about credential theft risks.
+Use responsibly and at your own risk.
 
----
+</i>
 
-# ✨ Features
-
-| Feature                     | Description                                                            |
-| ---------------------------- | ---------------------------------------------------------------------- |
-| 🎭 Multiple Templates       | Includes realistic login simulation pages for awareness demonstrations  |
-| 🌐 Tunnel Support           | Secure tunneling support for controlled remote demonstrations           |
-| 🤖 Telegram Notification    | Optional notification support for monitoring simulations                |
-| 📍 Visitor Logging          | Optional logging for training analytics                                 |
-| 🔄 Redirect Support         | Redirect participants to official sites after simulations               |
-| 💾 Persistent Settings      | Stores configuration preferences for future sessions                    |
-| 📱 Termux Compatible        | Works on Android via Termux                                             |
-| 🖥️ Cross Platform          | Linux, macOS, WSL, and Termux support                                    |
-
----
-
-# 🖥️ Supported Platforms
-
-* Linux
-* Android (Termux)
----
-
-# 📋 Requirements
-
-### Required Dependencies
-
-* PHP 7+
-* cURL
-* unzip
-* Internet connection
-
-Most missing dependencies are automatically detected during startup.
-
----
-
-# 🚀 Installation
-
-## Termux (Android)
-
-```bash
-pkg update && pkg upgrade
-pkg install git php curl
-
-git clone https://github.com/HYDRA-TERMUX/cypher-phish.git
-cd cypher-phish
-chmod +x setup.sh
-./setup.sh
-./cypher-phish.sh
-```
-
----
-
-# 🎮 Basic Usage
-
-After launching the framework:
-
-1. Select a simulation template
-2. Configure the local server
-3. Enable optional integrations
-4. Start the awareness simulation
-5. Monitor training results in a controlled environment
-
----
-
-# 📂 Project Structure
-
-```text
-cypher-phish/
-├── setup.sh
-├── cypher-phish
-├── .sites/
-│   ├── facebook/
-│   ├── instagram/
-│   ├── google/
-│   └── ...
-├── .server/
-├── .credentials/
-└── assets/
-```
-
----
-
-# 🛡️ Available Training Templates
-
-The project includes awareness simulation templates inspired by commonly targeted services such as:
-
-* Facebook
-* Instagram
-* Google
-* Microsoft
-* Netflix
-* PayPal
-* Steam
-* Discord
-* GitHub
-* Roblox
-* Spotify
-* Reddit
-* LinkedIn
-* TikTok
-* And more
-
-These templates are designed for:
-
-* Awareness demonstrations
-* User training
-* Red-team simulations
-* Internal security assessments
-
----
-
-# 📱 Telegram Integration
-
-Cypher Phish supports optional Telegram notifications for monitoring.
-
-## Setup Overview
-> [!IMPORTANT]
-> 1. Create a Telegram bot using BotFather
-> 2. Obtain the bot token
-> 3. Start a conversation with the bot
-> 4. Add the token during setup
-
-The framework stores configuration locally for future sessions.
-
----
-
-# ⚙️ Configuration
-
-Configuration data is stored inside:
-
-```text
-.credentials/config.cfg
-```
-
-Example:
-
-```bash
-TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN"
-TELEGRAM_CHAT_ID="YOUR_CHAT_ID" (Automatically adding)
-```
-
----
-
-# 🔧 Cleanup
-
-## Manual Cleanup
-
-```bash
-rm -rf .server/
-rm -rf .credentials/
-pkill php
-pkill cloudflared
-```
-
----
-
-# 🐛 Troubleshooting
-
-## PHP Not Found
-
-### Ubuntu / Debian
-
-```bash
-sudo apt install php
-```
-
-### Termux
-
-```bash
-pkg install php
-```
-
-## Port Already In Use
-
-```bash
-lsof -i :8080
-kill -9 PID
-```
-
----
-
-# 📝 Changelog
-
-## v3.4.0
-
-* Added additional awareness templates
-* Improved notification stability
-* Enhanced ARM compatibility
-* Improved configuration persistence
-* Added redirect support
-* General bug fixes and performance improvements
-
----
-
-# 👨‍💻 Author
-
-### RIXON XAVIER (HYDRA-TERMUX)
-
-GitHub:
-
-```text
-https://github.com/HYDRA-TERMUX
-```
-
----
-
-# 📄 License
-
-This repository is provided for:
-
-* Educational use
-* Security research
-* Awareness training
-* Authorized testing
-
-The author is not responsible for misuse or illegal activity.
-
----
-
-## 🙏 Special Thanks
 
 - **HTR-TECH** - For [ZPhisher](https://github.com/htr-tech/zphisher)
 
