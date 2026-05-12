@@ -14,16 +14,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-3.4.0-blue?style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/platform-Linux%20%7C%20Termux%20%7C%20macOS%20%7C%20WSL-green?style=for-the-badge" alt="Platform">
   <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/security-awareness-orange?style=for-the-badge" alt="Security">
 </p>
 
 </div>
 
-> A phishing simulation and security awareness framework designed for authorized security testing, employee training, and cybersecurity demonstrations.
-
----
 
 ## ⚠️ Important Notice
 > [!CAUTION]
@@ -53,15 +49,15 @@ The framework includes customizable web templates, local hosting support, notifi
 # ✨ Features
 
 | Feature                     | Description                                                            |
-| --------------------------- | ---------------------------------------------------------------------- |
-| 🎭 Multiple Templates       | Includes realistic login simulation pages for awareness demonstrations |
-| 🌐 Tunnel Support           | Secure tunneling support for controlled remote demonstrations          |
-| 🤖 Notification Integration | Optional notification support for monitoring simulations               |
-| 📍 Visitor Logging          | Optional logging for training analytics                                |
-| 🔄 Redirect Support         | Redirect participants to official sites after simulations              |
-| 💾 Persistent Settings      | Stores configuration preferences for future sessions                   |
-| 📱 Termux Compatible        | Works on Android via Termux                                            |
-| 🖥️ Cross Platform          | Linux, macOS, WSL, and Termux support                                  |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| 🎭 Multiple Templates       | Includes realistic login simulation pages for awareness demonstrations  |
+| 🌐 Tunnel Support           | Secure tunneling support for controlled remote demonstrations           |
+| 🤖 Telegram Notification    | Optional notification support for monitoring simulations                |
+| 📍 Visitor Logging          | Optional logging for training analytics                                 |
+| 🔄 Redirect Support         | Redirect participants to official sites after simulations               |
+| 💾 Persistent Settings      | Stores configuration preferences for future sessions                    |
+| 📱 Termux Compatible        | Works on Android via Termux                                             |
+| 🖥️ Cross Platform          | Linux, macOS, WSL, and Termux support                                    |
 
 ---
 
@@ -85,16 +81,6 @@ Most missing dependencies are automatically detected during startup.
 ---
 
 # 🚀 Installation
-
-## Linux / macOS / WSL
-
-```bash
-git clone https://github.com/HYDRA-TERMUX/cypher-phish.git
-cd cypher-phish
-chmod +x setup.sh
-./setup.sh
-./cypher-phish.sh
-```
 
 ## Termux (Android)
 
@@ -172,7 +158,7 @@ These templates are designed for:
 
 # 📱 Telegram Integration
 
-Cypher Phish supports optional Telegram notifications for awareness campaign monitoring.
+Cypher Phish supports optional Telegram notifications for monitoring.
 
 ## Setup Overview
 > [!IMPORTANT]
@@ -230,22 +216,6 @@ sudo apt install php
 ```bash
 pkg install php
 ```
-
-### Arch Linux
-
-```bash
-sudo pacman -S php
-```
-
----
-
-## Permission Denied
-
-```bash
-chmod +x setup.sh
-```
-
----
 
 ## Port Already In Use
 
