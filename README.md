@@ -23,8 +23,6 @@
 <h3 align="center">Disclaimer</h3>
 
 
-<i>
-
 Any actions and/or activities related to **Cypher Phish** are solely your responsibility.  
 The misuse of this toolkit may result in criminal charges against the individuals involved.  
 The developer and contributors will not be held responsible for any misuse or illegal activities performed using this project.
@@ -39,7 +37,6 @@ Unauthorized phishing attacks against real targets are illegal and unethical.
 
 Use responsibly and at your own risk.
 
-</i>
 
 
 - **HTR-TECH** - For [ZPhisher](https://github.com/htr-tech/zphisher)
