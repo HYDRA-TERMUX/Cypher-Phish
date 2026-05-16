@@ -67,21 +67,6 @@ Use responsibly and at your own risk.
 
 ---
 
-# 📂 Installation
-
-## Linux / Termux
-
-```bash
-git clone --depth=1 https://github.com/HYDRA-TERMUX/Cypher-Phish.git
-
-cd Cypher-Phish
-
-chmod +x *
-
-bash cypher-phish.sh
-```
-
----
 
 # 📱 Installation (Termux)
 
@@ -94,9 +79,10 @@ git clone https://github.com/HYDRA-TERMUX/Cypher-Phish
 
 cd Cypher-Phish
 
-chmod +x *
+chmod +x setup.sh
 
-bash cypher-phish.sh
+bash setup.sh
+
 ```
 
 ---
